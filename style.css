@@ -3,12 +3,16 @@
 <head>
 <style>
 body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: rgb(0, 0, 0);}
+h2   {color: rgb(32, 32, 90);}
+p    {color: rgb(201, 184, 38);}
+* { box-sizing: border-box; }
 </style>
 </head>
 <body>
-
+<header class = "header" {border: 1px solid red}>
+<main class = "main", {border: 1px solid red}>
+<footer class = "footer", {border: 1px solid red}>
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
