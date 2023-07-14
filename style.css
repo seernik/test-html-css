@@ -1,20 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {background-color: powderblue;}
-h1   {color: rgb(0, 0, 0);}
-h2   {color: rgb(32, 32, 90);}
-p    {color: rgb(201, 184, 38);}
-* { box-sizing: border-box; }
-</style>
-</head>
-<body>
-<header class = "header" {border: 1px solid red}>
-<main class = "main", {border: 1px solid red}>
-<footer class = "footer", {border: 1px solid red}>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+body {background-color:  powderblue;}
+/* h1   {color: rgb(0, 0, 0);} */
+.Headerpart   {color: rgb(13, 13, 180); 
+    padding: 10px;
+    margin: 20px;
+    text-align:center;
+}
+main {border: 1px solid red;}
+header {border: 1px solid red;}
+footer {border: 50px solid rgb(0, 0, 0);}
 
-</body>
-</html>
+p    {color: rgb(201, 184, 38); 
+    padding: 10px;
+    margin: 20px;
+    text-align:left;
+}
+ul   {color: rgb(32, 32, 90);
+    padding: 10px;
+    margin: 20px;
+    text-align:left;
+}  */
+.Summary  {color: rgb(0, 0, 0);
+    width: 50%;
+    background-color:  powderblue;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid rgb(109, 44, 100);
+}
+* { box-sizing: border-box; }
